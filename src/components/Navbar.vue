@@ -1,12 +1,18 @@
 <template>
-  <nav
-    class="p-3 border-gray-200 rounded bg-green-50 dark:bg-gray-800 dark:border-gray-700">
-    <div class="container flex flex-wrap items-center justify-between mx-auto">
-      <p class="flex items-center hover:no-underline">
-        <img src="" class="h-6 mr-3 sm:h-10" />
+  <nav class="p-3 border-gray-200 rounded bg-green-50 dark:bg-gray-800 dark:border-gray-700">
+  
         
-      </p>
-
+      
+    <div class="container flex flex-wrap items-center justify-between mx-auto">
+      <div>
+        <a href="">
+          <lord-icon
+            src="https://cdn.lordicon.com/ffpklhrd.json"
+            trigger="hover"
+            style="width:50px;height:50px">
+          </lord-icon>
+        </a>
+      </div>
       <div class="hidden w-full md:block md:w-auto">
         <ul
           class="flex flex-col mt-4 rounded-lg text-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
@@ -46,6 +52,7 @@
               <span class="flex-1 ml-2 whitespace-nowrap">Projects</span>
             </router-link>
           </li>
+          
           <li>
             <router-link
               to="/about"
@@ -63,6 +70,14 @@
                   d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"></path>
               </svg>
               <span class="flex-1 ml-2 whitespace-nowrap">About</span>
+            </router-link>
+          </li>
+          <li>
+            <router-link
+              to="/about"
+              class="flex items-center p-2 ml-2 hover:-mt-1 hover:no-underline text-gray-900 rounded-lg dark:text-white hover:bg-green-100 dark:hover:bg-gray-700"
+              aria-current="page">
+              <span class="flex-1 ml-2 whitespace-nowrap">Services</span>
             </router-link>
           </li>
 

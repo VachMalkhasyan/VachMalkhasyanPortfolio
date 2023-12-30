@@ -29,7 +29,6 @@
             <p class="">Home</p>
           </div>
         </router-link>
-
         <router-link
           to="/projects"
           class="flex flex-col items-center justify-center">
@@ -76,33 +75,29 @@
             <p class="whitespace-nowrap">About</p>
           </div>
         </router-link>
-        <router-link
-          to="/blog"
-          class="flex flex-col items-center justify-center">
-          <div
-            class="flex items-center hover:no-underline hover:text-green-500 mt-1 text-gray-900 rounded-lg dark:text-white hover:bg-blue-100 dark:hover:bg-gray-700"
-            aria-current="page">
-            <svg
-              aria-hidden="true"
-              class="flex-shrink-0 w-6 h-6 text-green-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                clip-rule="evenodd"
-                fill-rule="evenodd"
-                d="M1 5.25A2.25 2.25 0 013.25 3h13.5A2.25 2.25 0 0119 5.25v9.5A2.25 2.25 0 0116.75 17H3.25A2.25 2.25 0 011 14.75v-9.5zm1.5 5.81v3.69c0 .414.336.75.75.75h13.5a.75.75 0 00.75-.75v-2.69l-2.22-2.219a.75.75 0 00-1.06 0l-1.91 1.909.47.47a.75.75 0 11-1.06 1.06L6.53 8.091a.75.75 0 00-1.06 0l-2.97 2.97zM12 7a1 1 0 11-2 0 1 1 0 012 0z"></path>
-            </svg>
-          </div>
-          <div
-            class="flex items-center justify-center mt-1 hover:text-green-500 text-green-900 font-medium rounded-lg dark:text-white hover:bg-blue-100 dark:hover:bg-gray-700"
-            aria-current="page">
-            <div class="whitespace-nowrap">Blogs</div>
-          </div>
-        </router-link>
       </div>
     </div>
   </div>
+  <v-footer class="d-flex flex-column">
+    <div class="bg-teal d-flex w-100 align-center px-4">
+      <strong>Get connected with me on social networks!</strong>
+
+      <v-spacer></v-spacer>
+
+      <v-btn
+        v-for="icon in icons"
+        :key="icon"
+        class="mx-4"
+        :icon="icon"
+        variant="plain"
+        size="small"
+      ></v-btn>
+    </div>
+
+    <div class="px-4 py-2 bg-black text-center w-100">
+      {{ new Date().getFullYear() }}
+    </div>
+  </v-footer>
 </template>
 
 <script>
