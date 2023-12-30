@@ -3,9 +3,8 @@
     <div class="container">
       <div class="align-items-center flex justify-between">
       <div class="">
-        <img width="480" height="480" src="../assets/Emails-bro.svg" alt="linkedin"/>
+        <img width="480" height="480" src="../assets/Emails-bro.svg" alt="emails.bro"/>
           </div>
-
         <div class="col-lg-6 py-3 wow fadeInUp">
           <div class="subhead">Contact Me</div>
           <h2 class="title-section">Get In Touch</h2>

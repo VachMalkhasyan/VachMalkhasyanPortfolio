@@ -40,9 +40,10 @@
 </template>
 
 <script>
-import { directive as motion } from "@vueuse/motion";
 
-export default {};
+export default {
+  name:"HeaderMain"
+};
 </script>
 
 <style></style>

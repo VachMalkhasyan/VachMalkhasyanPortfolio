@@ -5,3 +5,12 @@ module.exports = defineConfig({
   lintOnSave: false,
   publicPath: process.env.NODE_ENV === "production" ? "/" : "/",
 });
+module.exports = {
+  pluginOptions: {
+    element: {
+      customElements: [
+        { tag: 'lord-icon' },
+      ],
+    },
+  },
+};

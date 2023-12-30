@@ -16,10 +16,10 @@ import Navbar from "./Navbar.vue";
 import Header from "./Header.vue";
 import Services from "./Services.vue";
 import About from "./About.vue";
-import SoftSkils from "./SoftSkils.vue";
+//import SoftSkils from "./SoftSkils.vue";
 import Footer from "./Footer.vue";
 import Contact from "./Contact.vue";
-import ProgLanguagesSwiper from './ProgLanguagesSwiper.vue'
+//import ProgLanguagesSwiper from './ProgLanguagesSwiper.vue'
 
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
@@ -37,9 +37,9 @@ export default {
     Header,
     Services,
     About,
-    SoftSkils,
+    //SoftSkils,
     Footer,
-    ProgLanguagesSwiper,
+    //ProgLanguagesSwiper,
     Contact,
   },
 };

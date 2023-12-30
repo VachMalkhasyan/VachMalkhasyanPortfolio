@@ -1,7 +1,7 @@
 <template>
   <Navbar />
   <About />
-  <Footer :blog="blog" />
+  <Footer />
 </template>
 
 <script>
@@ -14,10 +14,6 @@ export default {
   name: "AboutPage",
   data() {
     return {};
-  },
-
-  props: {
-    blog: Array,
   },
 
   components: {

@@ -109,7 +109,7 @@
 
 <script>
 export default {
-  name:"About"
+  name:"AboutMe"
 };
 </script>
 
