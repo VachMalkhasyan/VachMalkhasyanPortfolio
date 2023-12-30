@@ -1,7 +1,11 @@
 <template>
   <div class="page-section">
     <div class="container">
-      <div class="row align-items-center">
+      <div class="align-items-center flex justify-between">
+      <div class="">
+        <img width="480" height="480" src="../assets/Emails-bro.svg" alt="linkedin"/>
+          </div>
+
         <div class="col-lg-6 py-3 wow fadeInUp">
           <div class="subhead">Contact Me</div>
           <h2 class="title-section">Get In Touch</h2>
@@ -19,7 +23,7 @@
                 class="form-control"
                 placeholder="Enter message"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary rounded-pill mt-4">
+            <button type="submit" class="btn btn-primary rounded-pill mt-4 blue">
               Send Message
             </button>
           </form>
@@ -31,16 +35,9 @@
 </template>
 
 <script>
-import Navbar from "./Navbar.vue";
-import Footer from "./Footer.vue";
 
 export default {
-  name: "Contact",
-
-  components: {
-    Navbar: Navbar,
-    Footer: Footer,
-  },
+  name: "ContactMe",
 };
 </script>
 

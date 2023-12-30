@@ -6,7 +6,7 @@
   <!-- <Services id="" /> -->
 
   <!-- <ProgLanguagesSwiper /> -->
-  <!-- <Contact></Contact> -->
+  <Contact id="contactId"></Contact>
   <!-- <SoftSkils id="softSkilsId"/> -->
   <Footer />
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <nav class="p-3 border-gray-200 rounded bg-green-50 dark:bg-gray-800 dark:border-gray-700 lg:fixed z-10 w-full	">
+  <nav class="p-3 border-gray-200 rounded bg-green-50 dark:bg-gray-800 dark:border-gray-700 border-solid border-stone-950	 lg:fixed z-10 w-full	">
   <div class="container flex flex-wrap items-center justify-between mx-auto ">
       <div>
         <a href="">
@@ -12,7 +12,7 @@
       </div>
       <div class="hidden w-full md:block md:w-auto">
         <ul
-          class="flex flex-col mt-4 rounded-lg text-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+          class="flex flex-col rounded-lg text-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
           <li class="flex items-center hover:-mt-1 hover:no-underline bg-green-50 p-2 ml-2 text-gray-900 rounded-lg dark:text-white hover:bg-green-100 dark:hover:bg-gray-700" v-for="(link, index) in navLinks" :key="index"
                 @mouseover="hover = true"
                 @mouseleave="hover = false"
@@ -71,7 +71,7 @@ export default {
       // Delay the scroll operation until after the component has mounted
       this.$nextTick(() => {
         console.log(document.getElementById(link.id) ,111)
-        const position = document.getElementById(link.id).offsetTop - 50
+        const position = document.getElementById(link.id).offsetTop - 70
         console.log(position, 'positionposition')
         window.scrollTo({ top: position, behavior: 'smooth' })
       })
