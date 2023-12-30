@@ -1,11 +1,13 @@
 <template>
-  <Navbar />
-  <Header />
-  <Services />
-  <About />
+  <Navbar  /> 
+  <Header id="headerId" />
+  <Services id="serviceId" />
+  <About id="aboutId" />
+  <Services id="" />
+
   <!-- <ProgLanguagesSwiper /> -->
   <!-- <Contact></Contact> -->
-  <!-- <SoftSkils /> -->
+  <SoftSkils id="softSkilsId"/>
   <Footer />
 </template>
 

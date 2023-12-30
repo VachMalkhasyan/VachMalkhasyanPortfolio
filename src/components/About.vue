@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white page-section pt-5 -mb-5">
+  <div class="bg-white page-section pt-5 -mb-5" id="aboutId">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 py-3 wow zoomIn">
@@ -109,23 +109,7 @@
 
 <script>
 export default {
-  data() {
-    return {
-      scrollPosition: 0,
-    };
-  },
-
-  methods: {
-    handleScroll(e) {
-      this.scrollPosition = e.target.scrollTop;
-
-      if (this.scrollPosition > 100) {
-        console.log("UP");
-      } else {
-        console.log("DOWN");
-      }
-    },
-  },
+  name:"About"
 };
 </script>
 

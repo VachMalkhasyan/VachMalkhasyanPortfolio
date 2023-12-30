@@ -15,7 +15,7 @@
               <div>
                 <h>Front End</h>
                 <p>
-                  I like to craft solid and scalable frontend products with
+                  I'm craft solid and scalable frontend products with
                   great user experiences.
                 </p>
               </div>
@@ -35,10 +35,9 @@
                 </div>
               </div>
               <div>
-                <h4>Backend</h4>
+                <h4>Back End</h4>
                 <p>
-                  I also learn and work as Blockchain & Smart Contract
-                  freelancer developer.
+                  I can develop the back-end part for any front-end project.
                 </p>
               </div>
             </div>
@@ -57,7 +56,7 @@
               <div>
                 <h5>Mobile Apps</h5>
                 <p>
-                  I also highly interested in Native & Hybrid mobile app
+                  I also have experience in Native & Hybrid mobile app
                   development.
                 </p>
               </div>

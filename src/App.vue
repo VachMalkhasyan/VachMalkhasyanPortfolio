@@ -40,4 +40,22 @@ export default {
 .fade-enter-to {
   opacity: 1;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(111, 231, 111);
+  border-radius: 15px;
+}
 </style>
+
