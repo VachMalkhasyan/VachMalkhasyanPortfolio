@@ -21,39 +21,6 @@
                 >
                 <span class="flex-1 ml-2 whitespace-nowrap">{{link.text}}</span>
             </li>
-         
-          <!-- <li>
-            <router-link
-              to="/"
-              class="flex items-center p-2 ml-2 hover:no-underline"
-              aria-current="page">
-              <span class="flex-1 ml-2 whitespace-nowrap">Home</span>
-            </router-link>
-          </li>
-          <li>
-            <router-link
-              to="/about"
-              class="flex items-center p-2 ml-2 hover:no-underline"
-              aria-current="page">
-              <span class="flex-1 ml-2 whitespace-nowrap">Services</span>
-            </router-link>
-          </li>
-          <li>
-            <router-link
-              to="/about"
-              class="flex items-center p-2 ml-2 hover:no-underline"
-              aria-current="page">
-              <span class="flex-1 ml-2 whitespace-nowrap">About</span>
-            </router-link>
-          </li>
-          <li>
-            <router-link
-              to="/projects"
-              class="flex items-center p-2 ml-2 hover:no-underline"
-              aria-current="page">
-              <span class="flex-1 ml-2 whitespace-nowrap">Projects</span>
-            </router-link>
-          </li> -->
         </ul>
       </div>
     </div>
@@ -78,6 +45,10 @@ export default {
       {
         text: 'About',
         id: 'aboutId'
+      },
+      {
+        text: 'Contact',
+        id: 'contactId'
       }
     ]
     };

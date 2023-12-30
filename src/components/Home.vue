@@ -3,11 +3,11 @@
   <Header id="headerId" />
   <Services id="serviceId" />
   <About id="aboutId" />
-  <Services id="" />
+  <!-- <Services id="" /> -->
 
   <!-- <ProgLanguagesSwiper /> -->
   <!-- <Contact></Contact> -->
-  <SoftSkils id="softSkilsId"/>
+  <!-- <SoftSkils id="softSkilsId"/> -->
   <Footer />
 </template>
 
