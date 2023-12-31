@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-green-50 hidden lg:flex lg:items-center lg:justify-center">
+  <div class="bg-green-50 flex  lg:flex lg:items-center lg:justify-center">
     <div class="bg-green-50 page-section features">
       <div class="container">
         <div class="row justify-content-center">
