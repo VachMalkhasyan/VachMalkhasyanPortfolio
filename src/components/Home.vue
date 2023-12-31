@@ -2,10 +2,11 @@
   <Navbar  /> 
   <Header id="headerId" />
   <Services id="serviceId" />
+  <!-- <ProgLanguagesSwiper /> -->
   <About id="aboutId" />
   <!-- <Services id="" /> -->
 
-  <!-- <ProgLanguagesSwiper /> -->
+  
   <Contact id="contactId"></Contact>
   <!-- <SoftSkils id="softSkilsId"/> -->
   <Footer />
@@ -19,7 +20,7 @@ import About from "./About.vue";
 //import SoftSkils from "./SoftSkils.vue";
 import Footer from "./Footer.vue";
 import Contact from "./Contact.vue";
-//import ProgLanguagesSwiper from './ProgLanguagesSwiper.vue'
+// import ProgLanguagesSwiper from './ProgLanguagesSwiper.vue'
 
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
@@ -39,7 +40,7 @@ export default {
     About,
     //SoftSkils,
     Footer,
-    //ProgLanguagesSwiper,
+    // ProgLanguagesSwiper,
     Contact,
   },
 };
