@@ -15,12 +15,13 @@
              LET'S START A PROJECT TOGETHER
             </p>
 
-            <router-link
-              to="/about"
+            <a
+              href="https://www.linkedin.com/in/vachik-malxasyan-01aa28218"
+              target="_blank"
               name="fade"
               class="btn btn-outline border text-secondary">
               About
-            </router-link>
+          </a>
           </div>
           <div class="col-lg-6 wow zoomIn">
             <div
