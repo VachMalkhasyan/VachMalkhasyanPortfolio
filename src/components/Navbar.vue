@@ -15,15 +15,22 @@
                 >
                 <span class="flex-1 ml-2 whitespace-nowrap">{{link.text}}</span>
             </li>
+            <LanguageSwitcher></LanguageSwitcher>
         </ul>
+       
       </div>
+      
     </div>
   </nav>
 </template>
 
 <script>
+import LanguageSwitcher from './LanguageSwitcher.vue';
 export default {
   name: "NavBar",
+  components:{
+      LanguageSwitcher
+  },
   data() {
     return {
       active: 0,

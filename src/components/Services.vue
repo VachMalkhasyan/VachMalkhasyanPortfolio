@@ -13,10 +13,9 @@
                   style="width: 150px; height: 150px"></lord-icon>
               </div>
               <div>
-                <h>Front End</h>
+                <h4>{{ $t("service.frontEnd")  }}</h4>
                 <p>
-                  I'm craft solid and scalable frontend products with
-                  great user experiences.
+                  {{ $t("service.frontEndTitle")  }}
                 </p>
               </div>
             </div>
@@ -35,9 +34,9 @@
                 </div>
               </div>
               <div>
-                <h4>Back End</h4>
+                <h4>{{ $t("service.backEnd")  }}</h4>
                 <p>
-                  I can develop the back-end part for any front-end project.
+                  {{ $t("service.backEndTitle")  }}
                 </p>
               </div>
             </div>
@@ -54,10 +53,9 @@
                   style="width: 150px; height: 150px"></lord-icon>
               </div>
               <div>
-                <h5>Mobile Apps</h5>
+                <h5>{{ $t("service.Mobile")  }}</h5>
                 <p>
-                  I also have experience in Native & Hybrid mobile app
-                  development.
+                  {{ $t("service.MobileTitle")  }}
                 </p>
               </div>
             </div>
