@@ -15,37 +15,30 @@
 
         <div class="col-lg-6 p-4">
           <h2 class="title-section text-2xl">
-           About
-            <span class="marked">Myself</span>
+            {{ $t("about.aboutTitle")  }}
+            <span class="marked"> {{ $t("about.aboutTitle1")  }}</span>
           </h2>
           <div class="divider"></div>
 
           <div>
             <p>
-              I'm Vach, Full-Stack Web Developer with 2 years of experience from Armenia.
-              I started my career of Web Developer since 2021.
+              {{ $t("about.descriptionVach")  }}
             </p>
           </div>
 
           <div>
             <p>
-              I'm a well organized person, problem solver, independent employee
-              with high attention to details. Fan of reading and listening to music, outdoor
-              activities with my friends, TV series and books about pschology and personal development.
+              {{ $t("about.descriptionSoftSkills")  }}
             </p>
           </div>
 
           <div>
             <p class="hidden lg:flex">
-              My main using programing languages is JavaScript and PHP.For front-end 
-              part i usually work with React,Vue and Next for back-end part I use 
-              Laravel  and  NodeJS's frameworks like Express.js, Nest.js.
+              {{ $t("about.descriptionProgSkills")  }}
             </p>
           </div>
 
           <div class="img-place mb-3"></div>
-          <a href="#" class="btn btn-primary">More Details</a>
-          <a href="#" class="btn btn-outline border ml-2">Success Stories</a>
         </div>
       </div>
     </div>
@@ -58,28 +51,18 @@
       <div class="row">
         <div class="col-lg-6 p-4 -mt-9 lg:mt-0">
           <h2 class="title-section text-2xl">
-            My
-            <span class="marked">Skills & Experiences</span>
+            {{ $t("about.aboutTitle2")  }}
+            <span class="marked">{{ $t("about.aboutTitle3")  }}</span>
           </h2>
           <div class="divider"></div>
           <p class="mb-4">
-            I’m a passionate full-stack JavaScript developer with a journey that began in 2021
-             when I delved into programming independently. In 2022, I proudly graduated from 
-             Relq Technology School, earning a certification to validate my skills.
+            {{ $t("about.descriptionExperience")  }}
           </p>
           <p class="mb-4">
-              I gained
-              hands-on experience working on Upwork for 10 months, focusing on React. Later,
-               I spent 9 months at YogurtTeam as a Full Stack Developer, utilizing a diverse 
-               tech stack including React, Nest, Next, Vue, Laravel, and both SQL and NoSQL
-                databases. Excited to bring my expertise and enthusiasm to new challenges!
+            {{ $t("about.descriptionExperience1")  }}
           </p>
           <p class="mb-4">
-            I'm a student at ASUE, and my original major is finance. However, I've been transitioning 
-            to the IT sphere because I didn't find myself enjoying the traditional finance role. My 
-            aspiration is to combine my financial knowledge with my IT expertise to develop innovative
-             products that will have a significant impact. I'm confident that both finance and IT will
-              remain relevant and in high demand for the foreseeable future.   
+            {{ $t("about.descriptionExperience2")  }}  
           </p>
           <p class="mb-5 hidden lg:flex">
           </p>

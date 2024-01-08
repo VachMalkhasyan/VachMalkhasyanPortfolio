@@ -17,20 +17,25 @@
             </li>
             <LanguageSwitcher></LanguageSwitcher>
         </ul>
+        
        
       </div>
-      
     </div>
+    <div class="md:hidden">
+          <HamburgerMenu></HamburgerMenu>
+        </div>
   </nav>
 </template>
 
 <script>
+import HamburgerMenu from './HamburgerMenu.vue';
 import LanguageSwitcher from './LanguageSwitcher.vue';
 export default {
   name: "NavBar",
   components:{
-      LanguageSwitcher
-  },
+    LanguageSwitcher,
+    HamburgerMenu
+},
   data() {
     return {
       active: 0,
