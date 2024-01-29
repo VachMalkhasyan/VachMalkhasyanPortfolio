@@ -10,10 +10,10 @@
       <div class="hidden w-full md:block md:w-auto">
         <ul
           class="flex flex-col rounded-lg text-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
-          <li class="flex items-center hover:-mt-1 hover:no-underline bg-green-50 p-2 ml-2 text-gray-900 rounded-lg dark:text-white hover:bg-green-100 dark:hover:bg-gray-700" v-for="(link, index) in navLinks" :key="index"
+          <li class="flex items-center hover:-mt-1 hover:no-underline bg-green-50 p-2 text-gray-900 rounded-lg dark:text-white hover:bg-green-100 dark:hover:bg-gray-700" v-for="(link, index) in navLinks" :key="index"
                 @click=nav(link)
                 >
-                <span class="flex-1 ml-2 whitespace-nowrap">{{link.text}}</span>
+                <span class="flex-1 whitespace-nowrap">{{link.text}}</span>
             </li>
             <LanguageSwitcher></LanguageSwitcher>
         </ul>

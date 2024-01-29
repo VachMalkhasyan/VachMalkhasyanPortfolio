@@ -2,7 +2,6 @@
     <div>
         <div ref="sideNav" class="bm-menu">
             <nav class="bm-item-list">
-                <slot>Home</slot>
             </nav>
             <span class="bm-cross-button cross-style" @click="closeMenu" :class="{ hidden: !crossIcon }">
                 <span v-for="(x, index) in 2" :key="x" class="bm-cross" :style="{ position: 'absolute', width: '3px', height: '14px',transform: index === 1 ? 'rotate(45deg)' : 'rotate(-45deg)'}">

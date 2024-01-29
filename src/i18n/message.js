@@ -6,7 +6,7 @@ const messages = {
             title:"HI, I'm VACH",
             title1:"FULL STACK WEB DEVELOPER",
             subtitle:"LET'S START A PROJECT TOGETHER",
-            headerLink:"About"
+            headerLink:"Me in LinkedIn"
     },
     service:{
             frontEnd:"Front End",
@@ -34,7 +34,7 @@ const messages = {
         title:"Բարև, ես Վաչն եմ",
         title1:"ՎԵԲ ԾՐԱԳՐԱՎՈՐՈՂ",
         subtitle:"Արի սկսենք պրոյեկտը միասին ",
-        headerLink:"Իմ Մասին"
+        headerLink:"Ես LinkedIn-ում"
 },
     service:{
         frontEnd:"Front End",
@@ -59,10 +59,10 @@ const messages = {
   },
   ru: {
     header:{
-        title:"HI, I'm VACH",
-        title1:"FULL STACK WEB DEVELOPER",
-        subtitle:"LET'S START A PROJECT TOGETHER",
-        headerLink:"About"
+        title:"ПРИВЕТ, Я ВАЧ",
+        title1:"ФУЛ-СТЕК ВЕБ ПРОГРАМИСТ",
+        subtitle:"",
+        headerLink:"ОБО МНЕ В LikedIn"
 },
     service:{
         frontEnd:"Front End",
@@ -73,16 +73,16 @@ const messages = {
         MobileTitle:"I also have experience in Native & Hybrid mobile app development." 
 },
     about:{
-      aboutTitle:"About",
-      aboutTitle1:"Myself",
-      descriptionVach:"I'm Vach, Full-Stack Web Developer with 2 years of experience from Armenia.I started my career of Web Developer since 2021.",
-      descriptionSoftSkills:"I'm a well organized person, problem solver, independent employee with high attention to details. Fan of reading and listening to music, outdooractivities with my friends, TV series and books about pschology and personal development.",
-      descriptionProgSkills:"My main using programing languages is JavaScript and PHP.For front-end part i usually work with React,Vue and Next for back-end part I use Laravel and NodeJS's frameworks like Express.js, Nest.js.",
-      aboutTitle2:"My",
-      aboutTitle3:"Skills & Experiences",
-      descriptionExperience:"I’m a passionate full-stack JavaScript developer with a journey that began in 2021 when I delved into programming independently. In 2022, I proudly graduated from Relq Technology School, earning a certification to validate my skills. ",
-      descriptionExperience1:"I gained hands-on experience working on Upwork for 10 months, focusing on React. Later, I spent 9 months at YogurtTeam as a Full Stack Developer, utilizing a diverse tech stack including React, Nest, Next, Vue, Laravel, and both SQL and NoSQL databases. Excited to bring my expertise and enthusiasm to new challenges!",
-      descriptionExperience2:"I'm a student at ASUE, and my original major is finance. However, I've been transitioning  to the IT sphere because I didn't find myself enjoying the traditional finance role. My aspiration is to combine my financial knowledge with my IT expertise to develop innovative products that will have a significant impact. I'm confident that both finance and IT will remain relevant and in high demand for the foreseeable future. ",
+      aboutTitle:"О",
+      aboutTitle1:"Себе",
+      descriptionVach:"Я Вач Малхасян, Full-Stack Веб разработчик с 2-летним опытом из Армении.Я начал свою карьеру веб-разработчика с 2021 года",
+      descriptionSoftSkills:"Я хорошо организованный человек, который очень внимателен к деталям и на решение задачы. Fan of reading and listening to music, outdooractivities with my friends, TV series and books about pschology and personal development.",
+      descriptionProgSkills:"В основном я использую для програмирования JavaScript и PHP. Для фронтенда в основном я использую React, Vue, Next и Nuxt, а для бэкенда я использую Laravel и фреймворки  NodeJS-а - Express.js и Nest.js.",
+      aboutTitle2:"Мои",
+      aboutTitle3:"Навыки и Опыт",
+      descriptionExperience:"Я стал сам изучать програмированиеб я начал с HTML, CSS и JavaScript. А потом я прошел курс по Веб програмирование в Relq Technology School, и получил сертификат.  ",
+      descriptionExperience1:"У меня был опыт работы на UpWork-е где я работал именно на фронтенде и использовал ReactJS, а потом я работал в YogurtTeam,на позиции фул-стэк разработчика б и там работал на многих проектах которые были на языках React, Next, Vue, Nuxt, Nest, Express и Laravel ",
+      descriptionExperience2:"Также я учусь в АГУЭ на финансы. Я по первой специализации финансист, но мне не понравилась это индустрия и я решил перейти в IT сферу.",
     }
   },
   // Add more locales as needed
